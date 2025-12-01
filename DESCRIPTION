@@ -1,0 +1,12 @@
+Package: jgg
+Title: Small ggplot2 Extensions
+Version: 0.0.0.9000
+Description: Extensions to ggplot2 including brackets and annotations.
+Authors@R: person("Jan", "Gleixner", email = "jan@example.com", role = c("aut", "cre"))
+Author: Jan Gleixner
+Maintainer: Jan Gleixner <jan@example.com>
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: ggplot2, grid
