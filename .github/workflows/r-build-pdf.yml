@@ -29,6 +29,9 @@ jobs:
           devtools::build_vignettes()
         shell: Rscript {0}
 
+      - name: Update tlmgr
+        run: tlmgr update --self
+
       - name: Install LaTeX packages
         run: tlmgr install amsfonts
 
