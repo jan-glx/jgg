@@ -29,6 +29,9 @@ jobs:
           devtools::build_vignettes()
         shell: Rscript {0}
 
+      - name: Install LaTeX packages
+        run: tlmgr install amsfonts
+
       - name: Build PDF manual
         run: |
           R CMD Rd2pdf . --output=jgg-manual.pdf
