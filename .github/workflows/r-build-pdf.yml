@@ -44,5 +44,7 @@ jobs:
         with:
           name: jgg-docs
           path: |
+      vignettes/
+      inst/doc/
             jgg-manual.pdf
             inst/doc
