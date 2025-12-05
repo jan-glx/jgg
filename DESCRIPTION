@@ -1,6 +1,6 @@
 Package: jgg
 Title: Small ggplot2 Extensions
-Version: 0.0.0.9000
+Version: 0.0.1.9000
 Description: Extensions to ggplot2 including brackets and annotations.
 Authors@R: person("Jan", "Gleixner", email = "jan@example.com", role = c("aut", "cre"))
 Author: Jan Gleixner
