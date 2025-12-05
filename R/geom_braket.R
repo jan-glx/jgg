@@ -15,7 +15,6 @@
 #' 
 #' @export
 #'
-#' @importFrom backports "%||%"
 #' @import grid
 #' 
 #' @examples
