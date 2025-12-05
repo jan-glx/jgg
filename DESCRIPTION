@@ -1,6 +1,6 @@
 Package: jgg
 Title: Small ggplot2 Extensions
-Version: 0.0.1.9000
+Version: 0.0.1.9001
 Description: Extensions to ggplot2 including brackets and annotations.
 Authors@R: person("Jan", "Gleixner", email = "jan@example.com", role = c("aut", "cre"))
 Author: Jan Gleixner
@@ -11,7 +11,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 Depends: ggplot2 (>= 4.0.0), R (>= 3.3.0)
 Imports: 
-    backports,
+    backports (>= 1.5.0),
     grid
 Suggests: 
     knitr,
