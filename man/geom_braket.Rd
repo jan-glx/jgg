@@ -10,7 +10,6 @@ geom_braket(
   stat = "identity",
   position = "identity",
   ...,
-  tip_length = unit(0.02, "npc"),
   inherit.aes = TRUE,
   na.rm = FALSE,
   show.legend = NA
@@ -27,8 +26,6 @@ geom_braket(
 
 \item{...}{Other arguments passed on to methods}
 
-\item{tip_length}{Vertical extent of bracket tips (default: \code{unit(0.02, "npc")})}
-
 \item{inherit.aes}{Whether to inherit aesthetics from ggplot default}
 
 \item{na.rm}{Remove missing values?}
@@ -43,7 +40,7 @@ Draws a horizontal bracket between \code{x} and \code{xend} at height \code{y}, 
 }
 \examples{
 library(ggplot2)
-df <- data.frame(x = 1, xend = 3, y = 5, label = '*p* < 0.05')
+df <- data.frame(x = 1, xend = 3, y = 5, label = 'p < 0.05')
 ggplot() +
   geom_point(aes(1:5, 1:5)) +
   geom_braket(data = df, aes(x = x, xend = xend, y = y, label = label)) +
